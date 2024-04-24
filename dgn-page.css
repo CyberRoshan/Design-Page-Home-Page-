@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Urbanist", sans-serif;
+    overflow-x: hidden;
+    background-color:whitesmoke;
+}
+.nav-container{
+    height: 5rem;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    & .nav_logo{
+        background-color: white;
+        padding: 0 15px;
+        padding-top: 10px;
+        border-radius: 30px;
+        text-align: center;
+        border: 3px solid black;
+    }
+    .nav_logo:hover{
+        background-color: black;
+        color: white;
+    }    
+
+}
+.nav_part ul  {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav_part ul li{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.nav_part ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.intro-txt{
+    margin-top: 100px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+h1{
+    font-size: 120px;
+    padding-left: 50px;
+}
+.case-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 120px;
+    font-size: 25px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+       
+    & .img1{
+        height: 32rem;
+        width: 45vw;
+        border-radius: 30px;
+
+    }
+    & .img2{
+        height: 32rem;
+        width: 45vw;
+        background-size: cover;
+        border-radius: 30px;
+    }
+    & .main-img1 .img1-items{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+        line-height: 25px;
+    }
+    & .main-img2 .img2-items{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+        line-height: 25px;
+    }    
+}
+button{
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 40px;
+    background-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+main p{
+    color: rgb(120, 120, 120);
+}
+footer p{
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 25px;
+}
